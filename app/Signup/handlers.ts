@@ -5,7 +5,7 @@ export const handleSignup = (
   name: string,
   phoneNumber: string,
   password: string,
-  verifyPassword: string
+  verifyPassword: string,
 ) => {
   if (password !== verifyPassword) {
     Alert.alert("Error", "Passwords do not match");

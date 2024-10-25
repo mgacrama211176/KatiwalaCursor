@@ -30,7 +30,7 @@ const WorkExperience = () => {
   const handleInputChange = (
     index: number,
     field: keyof Experience,
-    value: string
+    value: string,
   ) => {
     const newExperiences = [...experiences];
     newExperiences[index][field] = value;
